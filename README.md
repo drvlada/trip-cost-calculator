@@ -43,7 +43,7 @@ https://trip-cost-calculator-production.up.railway.app/calculator
 ![Trip Calculator](docs/screenshots/calculator.png)
 
 ### Trip Results
-![Trip Results](docs/screenshots/results.png)
+![Trip Results](docs/screenshots/calculator-result.png)
 
 ### Trip History
 ![Trip History](docs/screenshots/history.png)
