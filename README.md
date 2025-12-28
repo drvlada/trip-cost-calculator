@@ -35,8 +35,6 @@ https://trip-cost-calculator-production.up.railway.app/calculator
 6. Results and route geometry are displayed on an interactive map.
 7. Trip data is stored in user history (authenticated users only).
 
-
-## Screenshots
 ## Screenshots
 
 ### Trip Calculator
