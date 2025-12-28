@@ -6,6 +6,12 @@ The project is designed as a portfolio piece and as a practical tool for estimat
 
 ---
 
+## Live Demo
+
+The application is deployed and available at:  
+https://trip-cost-calculator-production.up.railway.app/calculator
+
+
 ## Features
 
 - User authentication (registration, login, logout)
@@ -19,8 +25,30 @@ The project is designed as a portfolio piece and as a practical tool for estimat
 - Interactive map visualization of routes
 - Trip history stored per authenticated user
 
----
+## How It Works
 
+1. User enters origin, destination, fuel type, and vehicle consumption.
+2. The backend requests route data from HERE Routing API.
+3. Fuel cost is calculated using distance and fuel prices from the database.
+4. Toll costs are calculated from routing response.
+5. An optional toll-free route is calculated for comparison.
+6. Results and route geometry are displayed on an interactive map.
+7. Trip data is stored in user history (authenticated users only).
+
+
+## Screenshots
+## Screenshots
+
+### Trip Calculator
+![Trip Calculator](docs/screenshots/calculator.png)
+
+### Trip Results
+![Trip Results](docs/screenshots/results.png)
+
+### Trip History
+![Trip History](docs/screenshots/history.png)
+
+---
 ## Tech Stack
 
 - Backend: PHP 8+, Laravel
